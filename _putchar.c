@@ -9,19 +9,19 @@ int _putchar(char c)
 	static int bufferCount;
 	static char buffer[1024];
 
-	if (character == -1)
+	if (c == -1)
 	{
 		bufferCount = 0;
 		return (0);
 	}
-	if (character == -2 || bufferCount == 1024)
+	if (c == -2 || bufferCount == 1024)
 	{
 		write(1, buffer, bufferCount);
 		bufferCount = 0;
 	}
-	if (character != -1 && character != -2)
+	if (c != -1 && c != -2)
 	{
-		buffer[bufferCount] = character;
+		buffer[bufferCount] = c;
 		bufferCount++;
 		return (1);
 	}

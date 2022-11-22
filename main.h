@@ -10,5 +10,6 @@
 
 int _putchar(char c);
 int _printf(const char *format, ...);
+int (*fmanager(char *format))(char *format, va_list);
 
 #endif

@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * print_c - print a char.
+ * printc - print a char.
  * @format: format of char.
  * @args: va_list with char.
  * Return: number char for printf.
  */
-int print_c(char *format, va_list args)
+int printc(char *format, va_list args)
 {
 	(void)format;
 	_putchar(va_arg(args, int));

@@ -7,13 +7,13 @@
  */
 int _puts(char *string)
 {
-	int count = 0;
+	int contador = 0;
 
 	while (*string)
 	{
 		_putchar(*string);
 		string++;
-		count++;
+		contador++;
 	}
-	return (count);
+	return (contador);
 }

@@ -1,1 +1,7 @@
-Group projet
+# Printf
+
+Group project
+
+Contributors
+- Sympol
+- Urieli
